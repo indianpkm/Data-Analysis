@@ -1,0 +1,25 @@
+.pestle{
+    height: 100%;
+    width: 100%;
+    background-color: #fff;
+    border-radius: 1rem;
+}
+
+
+@media only screen and (max-width: 1200px) {
+    .pestle{
+        width: 56%;
+    }
+  }
+
+  @media only screen and (max-width: 850px) {
+    .pestle{
+        width: 87%;
+    }
+  }
+
+  @media only screen and (max-width: 500px) {
+    .pestle{
+        width: 95%;
+    }
+  }

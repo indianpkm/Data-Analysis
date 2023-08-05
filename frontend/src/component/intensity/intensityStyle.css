@@ -1,0 +1,27 @@
+.intensity{
+    height: 100%;
+    width: 100%;
+    background-color: #fff;
+    border-radius: 1rem;
+    padding: .5rem;
+}
+
+@media only screen and (max-width: 1200px) {
+    .intensity {
+        width: 53%;
+    }
+  }
+
+  @media only screen and (max-width: 850px) {
+    .intensity{
+        width: 85%;
+    }
+  }
+
+  @media only screen and (max-width: 500px) {
+    .intensity{
+        width: 95%;
+        padding: .1rem;
+        padding-top: 1rem;
+    }
+  }

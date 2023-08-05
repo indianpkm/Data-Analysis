@@ -1,0 +1,52 @@
+.container {
+    margin: 1rem;
+    width: 98%;
+}
+
+body {
+    background-color: #eff4f7;
+}
+
+.upper {
+    width: 100%;
+    display: flex;
+    gap: 1rem;
+}
+
+.lineChart {
+    width: 100%;
+    display: flex;
+    gap: 1rem;
+}
+
+.lower {
+    width: 100%;
+    display: flex;
+    gap: 1rem;
+}
+
+@media only screen and (max-width: 1200px) {
+    .upper {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .lineChart {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .lower {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+ .container{
+    margin: 8px;
+ }   
+}

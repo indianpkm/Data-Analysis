@@ -1,0 +1,33 @@
+.country{
+    background-color: #fff;
+    border-radius: 1rem;
+    padding: .5rem;
+    margin-top: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.topic{
+    background-color: #fff;
+    border-radius: 1rem;
+    padding: .5rem;
+    margin-top: 1rem;
+}
+
+@media only screen and (max-width: 1200px) {
+    .topic{
+        width: 80%;
+    }
+    .country{
+        width: 83%;
+    }
+  }
+
+  @media only screen and (max-width: 500px) {
+    .topic{
+        width: 95%;
+    }
+    .country{
+        width: 95%;
+    }
+  }

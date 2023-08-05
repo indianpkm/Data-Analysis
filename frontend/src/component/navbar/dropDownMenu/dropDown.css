@@ -1,0 +1,77 @@
+.selector{
+    width: 100%;
+    display: flex;
+    padding: 10px 0 10px 0;
+    font-size: .8rem;
+    align-items: center;
+}
+
+.dropDown{
+    margin-left: 15px;
+    min-width: 100px;
+    max-width: 200px;
+    border-radius: 10px;
+    margin-right: auto;
+}
+.dropDown:hover{
+    cursor: pointer;
+}
+
+.Dropdown-control{
+    padding: 6px 30px 6px 10px;
+    cursor: pointer;
+}
+
+.clear_btn {
+  background: #FF4742;
+  border: 1px solid #FF4742;
+  border-radius: 6px;
+  box-shadow: rgba(0, 0, 0, 0.1) 1px 2px 4px;
+  box-sizing: border-box;
+  color: #FFFFFF;
+  cursor: pointer;
+  display: inline-block;
+  font-family: nunito,roboto,proxima-nova,"proxima nova",sans-serif;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 8px;
+  min-height: 30px;
+  margin-right: 10px;
+  outline: 0;
+  padding: 12px 14px;
+  text-align: center;
+  text-rendering: geometricprecision;
+  text-transform: none;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  vertical-align: middle;
+}
+
+.clear_btn:hover,
+.clear_btn:active {
+  background-color: initial;
+  background-position: 0 0;
+  color: #FF4742;
+}
+
+.clear_btn:active {
+  opacity: .5;
+}
+
+  @media only screen and (max-width: 1200px) {
+    .selector{
+        display: none;
+        margin-left: 5%;
+    }
+    .dropDown{
+        margin: 1.2rem;
+    }
+    .clear_btn{
+        margin-left: 50%;
+    }
+  }
+
+  @media only screen and (max-width: 500px) {
+    
+  }
